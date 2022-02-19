@@ -1,0 +1,55 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./scripts/questoes.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Doc Questoes</title>
+  </head>
+  <body>
+    <div class="doc-container">
+      <div class="doc-header">
+        <div clas="doc">
+          <span id="doc">123456yhsd*</span>
+          <button id="copy">Copiar</button>
+        </div>
+      </div>
+
+      <div class="doc-body">
+        <div class="form-control">
+          <label for="len">Password Length</label>
+          <input type="number" id="len" value="15" min="2" max="30" />
+        </div>
+
+        <div class="form-control">
+          <label for="upper">Uppercase</label>
+          <input type="checkbox" id="upper" />
+        </div>
+
+        <div class="form-control">
+          <label for="lower">Lowercase</label>
+          <input type="checkbox" id="lower" />
+        </div>
+
+        <div class="form-control">
+          <label for="number">Number</label>
+          <input type="checkbox" id="number" />
+        </div>
+        <div class="form-control">
+          <label for="symbol">Symbol</label>
+          <input type="checkbox" id="symbol" />
+        </div>
+
+        <button class="generate" id="generate">Gerar Senha</button>
+      </div>
+    </div>
+    <input
+      type="text"
+      name="escada"
+      id="escada"
+      placeholder="digite um valor"
+    />
+    <button onclick="escada(2)">click aqui</button>
+  </body>
+</html>
