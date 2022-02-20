@@ -1,6 +1,6 @@
 # DesafioCapgemini
 
-##Instruções para uso do Código
+## Instruções para uso do Código
 
 
 **Clonar o projeto em qualquer pasta do computador, usando o comando $git clone urldoprojeto**
@@ -15,9 +15,9 @@
 **Caso tenha o XAMP ou WANPSERVER, basta clonar o projeto na pasta WWW e abrir em qualquer navegador com o link http://localhost**
 
 
-##Questão 1
+## Questão 1
 
-##Questão 2
+## Questão 2
 
-##Questão 3
+## Questão 3
 
