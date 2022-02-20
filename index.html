@@ -1,55 +1,103 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, incicial-scale=1.0" />
     <script src="./scripts/questoes.js" defer></script>
-    <link rel="stylesheet" href="style.css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="/scripts/media.css" rel="stylesheet">
     <title>Doc Questoes</title>
   </head>
-  <body>
-    <div class="doc-container">
-      <div class="doc-header">
-        <div clas="doc">
-          <span id="doc">123456yhsd*</span>
-          <button id="copy">Copiar</button>
-        </div>
+
+  <body class="body">
+    <header>
+      <div id="title">
+       <img src="./img/logo.svg" alt="logo da Capgemini">
       </div>
+      <ul>
+        <a href="https://www.capgemini.com/br-pt/"target="_blank"><li>Quem somos</li></a>
+        <a href="https://www.canva.com/design/DAE47iPl2JQ/L92yp9gB_j7F81x6rqxL6A/view"target="_blank"><li>Desafios</li></a>
+        <a href="https://www.canva.com/design/DAE471NZkAY/HYeio8IZT4V7IdZb4EP7Bw/view"target="_blank"><li>Parceiros</li></a>
+        <a href="#" id="inscreva-se-btn"><li>Já tem uma conta?</li></a>
+      </ul>
+    </header>
+    <main>
+      <aside>
+        <h2><span>Desafio #1</span></h2>
+    <p>
+      O site considera uma senha forte quando ela satisfaz os seguintes
+      critérios:
+             <br></br>
+      *Possui no mínimo 6 caracteres. 
+              <br></br>
+      *Contém no mínimo 1 digito.
+              <br></br>
+      *Contém no mínimo 1 letra em minúsculo. 
+              <br></br>
+      *Contém no mínimo 1 letra em
+      maiúsculo. 
+              <br></br>
+      *Contém no mínimo 1 caractere especial. Os caracteres especiais
+      são: !@#$%^&*()-+
+    </p>
+    <div class="background" id="background">
+      <form>
+        <input type="text" placeholder="Nome" />
+        <div id="erroSenhaForca"></div>
+        <input
+          type="password"
+          placeholder="senha"
+          name="senhaForca"
+          id="senhaForca"
+          maxlength="8"
+          onkeyup="validarsenhaForca()"
+        />
+        <input type="submit" value="Enviar >" />
+      </form>
+    </aside>
 
-      <div class="doc-body">
-        <div class="form-control">
-          <label for="len">Password Length</label>
-          <input type="number" id="len" value="15" min="2" max="30" />
+    <aside>
+      <img  class="img" src="./img/Lesson-amico.svg" alt="homem e mulher conversando">
+    </aside>
+    </main>
+    <form class="form">
+      <div class="doc-container">
+        <div class="doc-header">
+          <div class="doc">
+            <span type="text" id="doc">156Yhsd*</span>
+            <button id="copy">Copiar</button>
+          </div>
         </div>
 
-        <div class="form-control">
-          <label for="upper">Uppercase</label>
-          <input type="checkbox" id="upper" />
-        </div>
+        <div class="doc-body">
+          <div class="form-control">
+            <label for="len">Password Length</label>
+            <input type="number" id="len" value="8" min="6" max="8" />
+          </div>
 
-        <div class="form-control">
-          <label for="lower">Lowercase</label>
-          <input type="checkbox" id="lower" />
-        </div>
+          <div class="form-control">
+            <label for="upper">Uppercase</label>
+            <input type="checkbox" id="upper" />
+          </div>
 
-        <div class="form-control">
-          <label for="number">Number</label>
-          <input type="checkbox" id="number" />
-        </div>
-        <div class="form-control">
-          <label for="symbol">Symbol</label>
-          <input type="checkbox" id="symbol" />
-        </div>
+          <div class="form-control">
+            <label for="lower">Lowercase</label>
+            <input type="checkbox" id="lower" />
+          </div>
 
-        <button class="generate" id="generate">Gerar Senha</button>
+          <div class="form-control">
+            <label for="number">Number</label>
+            <input type="checkbox" id="number" />
+          </div>
+          <div class="form-control">
+            <label for="symbol">Symbol</label>
+            <input type="checkbox" id="symbol" />
+          </div>
+
+          <button class="generate" id="generate">Gerar Senha</button>
+        </div>
       </div>
     </div>
-    <input
-      type="text"
-      name="escada"
-      id="escada"
-      placeholder="digite um valor"
-    />
-    <button onclick="escada(2)">click aqui</button>
+  </form>
   </body>
 </html>

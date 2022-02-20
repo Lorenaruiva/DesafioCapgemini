@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+.body {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(175, 209, 175),
+    rgb(34, 109, 15)
+  );
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  flex-direction: column;
+  line-height: 10px;
+}
+li {
+  display: inline-block;
+  margin: 20px;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: rgb(132, 14, 201);
+  transition: 0.3s all;
+}
+
+#inscreva-se-btn {
+  border: 2px solid rgb(132, 14, 201);
+  padding: 10px;
+  border-radius: 15px;
+}
+#inscreva-se-btn:hover {
+  background-color: rgb(132, 14, 201);
+  color: white;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 56px;
+  line-height: 10px;
+  font-family: 'Franklin Gothic Medium';
+}
+span {
+  font-size: 15px;
+  color: white;
+}
+p {
+  line-height: 20px;
+  max-width: 500px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.img {
+  width: 500px;
+  text-align-last: left;
+  float: left;
+  margin-left: none;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+form [type='submit'] {
+  height: 50px;
+  width: 100px;
+  background-color: rgb(132, 14, 201);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+form [type='submit'] {
+  cursor: pointer;
+}
+
+input {
+  margin-top: 20px;
+  right: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+}
+
+.doc-container {
+  padding: 6px;
+  border-radius: 20px;
+  align-items: center;
+  background-color: rgb(67, 23, 93);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  min-width: 400px;
+}
+
+.doc-header {
+  padding: 1rem;
+}
+
+.doc {
+  background-color: rgb(69, 26, 109);
+  display: flex;
+  font-size: 1.5rem;
+  align-items: center;
+  height: 20px;
+  width: 50%;
+  position: relative;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.doc button {
+  background-color: azure;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 0.25rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(0, 20%);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  opacity: 0;
+}
+
+.doc:hover button {
+  opacity: 2;
+  transform: translate(0, 0%);
+}
+.form {
+  padding: 4px;
+}
+
+.form-control {
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  margin: 0, 75rem 0;
+}
+
+.generate {
+  align-items: center;
+  display: inline-block;
+  margin: 20px;
+  border-radius: 50px;
+  background-color: green;
+  border-color: navajowhite;
+  color: darkmagenta;
+  cursor: pointer;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  width: 50%;
+}

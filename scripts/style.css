@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100&family=Redressed&family=Sarala:wght@700&display=swap');
+* {
+  box-sizing: border-box;
+}
+.body {
+  background-image: linear-gradient(-40deg, green, rgb(4, 24, 2));
+}
+.img {
+  width: 200px;
+}
+.doc-container {
+  background-color: rgb(46, 12, 80);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  min-width: 400px;
+}
+.background {
+}
+.doc-header {
+  padding: 1rem;
+}
+
+.doc {
+  background-color: rgb(69, 26, 109);
+  display: flex;
+  font-size: 1.5rem;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  position: relative;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.doc button {
+  background-color: azure;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 0.25rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(0, 20%);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  opacity: 0;
+}
+
+.doc:hover button {
+  opacity: 2;
+  transform: translate(0, 0%);
+}
+
+.form-control {
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  margin: 0, 75rem 0;
+}
+
+.generate {
+  background-color: green;
+  border: navajowhite;
+  color: darkmagenta;
+  cursor: pointer;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  width: 100%;
+}
