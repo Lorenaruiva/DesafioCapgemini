@@ -17,6 +17,9 @@
 
 ## Questão 1
 
+_Informe o tamanho da escada, clique no botão gerar e logo abaixo aparecerá a escada._
+
+![image](https://user-images.githubusercontent.com/79430482/154875243-eff81d94-f850-4f0a-82c1-f5b79d247290.png)
 
 
 ## Questão 2
