@@ -196,3 +196,14 @@ input {
   margin-top: 1rem;
   width: 50%;
 }
+.verificartexto {
+  background-color: rgb(132, 14, 201);
+  color: white;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 20px;
+}
+.verificartexto:hover {
+  background-color: rgb(214, 118, 243);
+  transition: 0.5s all;
+}

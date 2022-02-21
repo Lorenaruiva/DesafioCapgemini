@@ -162,3 +162,8 @@ copyEl.addEventListener('click', () => {
   textarea.remove()
   alert('O texto foi copiado')
 })
+
+//================================================================
+
+//Questão 3
+//Infelizmente não consegui fazer
