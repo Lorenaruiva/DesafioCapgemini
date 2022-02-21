@@ -1,3 +1,23 @@
+//Questão 1
+var botaoGerarEscada = document.getElementById('gerarescada')
+botaoGerarEscada.addEventListener('click', gerarEscada)
+
+function gerarEscada() {
+  event.preventDefault()
+  var inputValor = document.getElementById('tamanhoescada').value
+  var inputEscada = document.getElementById('escada')
+  document.getElementById('escadagerada').value = ''
+  for (var i = 1; i <= inputValor; i++) {
+    document.getElementById('escadagerada').value +=
+      ' '.repeat(inputValor - i) + '*'.repeat(i) + '\n'
+    console.log(' '.repeat(inputValor - i) + '*'.repeat(i))
+  }
+}
+
+//============================================================================
+
+//Questão 2
+
 function validarsenhaForca() {
   var senha = ''
   var senha = document.getElementById('senhaForca').value
@@ -72,6 +92,7 @@ function getSymbol() {
 }
 
 function generatePassword() {
+  event.preventDefault()
   const len = lenEl.value
 
   let password = ''

@@ -1,6 +1,20 @@
 * {
   box-sizing: border-box;
 }
+
+.gerarescada {
+  background-color: rgb(132, 14, 201);
+  color: white;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 20px;
+}
+
+.gerarescada:hover {
+  background-color: rgb(181, 103, 255);
+  transition: 0.5s all;
+}
+
 .body {
   background-image: linear-gradient(
     to bottom,
@@ -56,7 +70,7 @@ main {
 }
 
 h2 {
-  font-size: 56px;
+  font-size: px;
   line-height: 10px;
   font-family: 'Franklin Gothic Medium';
 }
@@ -110,9 +124,9 @@ input {
   padding: 6px;
   border-radius: 20px;
   align-items: center;
-  background-color: rgb(67, 23, 93);
+  background-color: rgb(132, 14, 201);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-  min-width: 400px;
+  min-width: 300px;
 }
 
 .doc-header {
@@ -153,6 +167,8 @@ input {
 }
 .form {
   padding: 4px;
+  font-size: 15px;
+  width: 200px;
 }
 
 .form-control {
@@ -163,16 +179,18 @@ input {
 }
 
 .generate {
-  align-items: center;
+  border: none;
+  position: relative;
+  box-sizing: border-box;
+  line-height: 24px;
   display: inline-block;
   margin: 20px;
-  border-radius: 50px;
-  background-color: green;
+  border-radius: 10px;
+  background-color: white;
   border-color: navajowhite;
   color: darkmagenta;
-  cursor: pointer;
   display: block;
-  font-size: 1.5rem;
+  font-size: 15px;
   font-weight: bold;
   padding: 0.75rem;
   margin-top: 1rem;
