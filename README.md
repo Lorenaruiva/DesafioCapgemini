@@ -38,3 +38,5 @@ _Sua senha vai ser classificada de acordo com a sua força, que vai de 6 até 8 
 
 ## Questão 3
 
+_a questão pede que dada uma string qualquer, desenvolva um algoritmo que encontre o número de pares de substrings que são anagramas. Mas infelizmente eu não consegui solucionar a questão!_
+
